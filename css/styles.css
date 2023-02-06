@@ -1,0 +1,371 @@
+/* General */
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+.sub-titulo {
+    text-transform: uppercase;
+    color: #E92160;
+    font-family:  'Anton', sans-serif;
+}
+
+.sub-titulo-oscuro {
+    text-transform: uppercase;
+    color: #3E4144;
+    font-family:  'Anton', sans-serif;
+}
+
+/* Background */
+
+.bg-negro {
+    background-color: black;
+}
+
+.bg-negro-d {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.bg-gris {
+    background-color: #D9D9D9;
+}
+
+/* NAV */
+
+.link-a {
+    color: black;
+}
+
+.link-a:hover {
+    color: #E92160;
+}
+
+.link-ico-alt {
+    color: #1F1F1F;
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+
+.link-ico-alt:hover {
+    color: #E92160;
+}
+
+/* BANNER */
+
+.banner {
+    height: 500px;
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bannerTitle {
+    font-family:  'Anton', sans-serif;
+    font-size: 4rem;
+    color: #FFF;
+}
+
+.bannerParr {
+    font-family:  'Caveat', cursive;
+    color: #FFF;
+    font-size: 1rem;
+    width: 30%;
+    margin: auto;
+}
+
+/* BTN */
+
+/* btn up*/
+
+.bttn-up {
+    display: inline-block;
+	width: 40px;
+	height: 80px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 99999;
+	margin-right: 0px;
+	transition: all .4s ease;
+	text-align: center;
+}
+
+.bttn-up-conten {
+    background: rgba(62,65,68,0.5);
+	border-radius: 30%;
+}
+
+.bttn-up-a:hover .bttn-up-i  {
+    color: #E92160;
+}
+
+.bttn-up-i {
+    font-size: 40px;
+    color: #FFF;
+}
+
+/* btn menu */
+
+.btn-menu {
+    background-color: #FE00F0;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    padding: 5px;
+    color: black;
+    font-weight: 600;
+}
+
+.btn-menu-i {
+    color: #FE00F0;
+    background: none;
+    font-weight: 600;
+}
+
+/* btn general */
+
+.btn-general {
+    background-color: #E92160;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #FFF;
+    transition: background-color 0.7s ease;
+}
+
+.btn-general:hover {
+    background-color: #CC104C;
+}
+
+.bttn-search {
+    color: #E92160;
+    background: none;
+    border-radius: 5px;
+    padding: 0.4rem 0.6rem;
+    border: 2px solid #E92160;
+    cursor: pointer;
+    transition: background-color 0.7s ease;
+}
+
+.bttn-search:hover {
+    color: #FFF;
+    background-color: #E92160;
+    box-shadow: 2px 2px 6px 1px #3E4144;
+}
+
+.bttn-register {
+    color: #FFF;
+    background-color: #1C50A5;
+    border-radius: 5px;
+    padding: 0.4rem 0.6rem;
+    border: 2px solid #1C50A5;
+    cursor: pointer;
+    transition: background-color 0.7s ease;
+}
+
+.bttn-register:hover {
+    box-shadow: 2px 2px 6px 1px #3E4144;
+}
+
+.bttn-login {
+
+}
+
+.bttn-login {
+    color: #FFF;
+    background-color: #1C50A5;
+    border-radius: 5px;
+    padding: 0.4rem 0.6rem;
+    border: 2px solid #1C50A5;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.7s ease;
+}
+
+.bttn-login:hover {
+    box-shadow: 2px 2px 6px 1px #3E4144;
+}
+
+.bttn-login-crear {
+    color: #FFF;
+    background-color: #E92160;
+    border-radius: 5px;
+    padding: 0.4rem 0.6rem;
+    border: 2px solid #E92160;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.7s ease;
+}
+
+.bttn-login-crear:hover {
+    box-shadow: 2px 2px 6px 1px #3E4144;
+}
+
+/* Form */
+
+.form-label {
+    color: black;
+    font-weight: 600;
+}
+
+.form-input {
+    background: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px 10px;
+    color: black;
+    width: 100%;
+}
+
+.form-textarea {
+    background: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px 10px;
+    color: black;
+    width: 100%;
+    resize: none;
+}
+
+.form-input:focus, .form-textarea:focus {
+    outline: none;
+}
+
+/* Registro */
+
+.registro {
+    background-color: #D9D9D9;
+}
+
+.contenedor-registro {
+    background-color: #FFF;
+    
+}
+
+/* Footer */
+
+.footer {
+    background-color: #D9D9D9;
+    margin: 0;
+    padding: 4rem 6rem;
+}
+
+.footer-bottom {
+    font-size: 1rem;
+    padding-top: 4rem;
+    text-align: center;
+}
+
+.footer-link {
+    color: black;
+    transition: all 0.4s;
+}
+
+.footer-link:hover {
+    text-decoration: none;
+    color: #7DC0FB;
+}
+
+/* IMG */
+
+.resgistro-img {
+    background-image: url("../img/07_office-620822_1920.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.login-img {
+    background-image: url("../img/07_contacto.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/* Decoradores */
+
+.d1 {
+    height: 0.5px;
+    margin-right: 90%;
+    background-color: black;
+  }
+
+.d2 {
+    height: 0.5px;
+    margin-left: 10%;
+    margin-right: 70%;
+    background-color: black;
+}
+
+.d3 {
+    height: 0.5px;
+    width: 40%;
+    background-color: black;
+  }
+
+  /* Iconos */
+
+.ico-square {
+    background-color: #FFF;
+    border-radius: 5px;
+    width: 30px; 
+    height: 30px;
+    border: none;
+    box-shadow: 2px 2px 6px 1px black;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.7s ease;
+    padding: 5px;
+}
+
+.ico-square-i {
+    font-size: 1rem;
+    color: #E92160;
+}
+
+.ico-square:hover {
+    background-color: #E92160;
+}
+
+.ico-square:hover .ico-square-i {
+    color: #FFF;
+}
+
+/* Login */
+
+.login-container {
+    height: 100vh;
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.login-box {
+    box-shadow: 2px 2px 6px 1px black;
+    width: 50%;
+    padding: 2rem 5rem;
+    margin: auto;
+    background-color: #FFF;
+    border-radius: 12px;
+}
